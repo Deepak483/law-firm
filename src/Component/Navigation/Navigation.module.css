@@ -1,0 +1,24 @@
+.navigationContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navigationList li {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+.navButton {
+  border: 2px solid var(--color);
+  color: var(--color);
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  width: 12.2rem;
+  font-size: 1rem;
+  font-family: Inter, "sans-serif";
+}
+.navigationList {
+  display: flex;
+  gap: 3rem;
+  margin: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,8 +1,9 @@
+import Navbar from "./Component/Navbar/Navbar";
 import styles from "./index.css";
 function App() {
   return (
-    <div>
-     <h1>law firm website</h1>
+    <div style={{ margin: "3rem 3rem" }}>
+      <Navbar />
     </div>
   );
 }

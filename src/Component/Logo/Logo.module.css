@@ -1,3 +1,8 @@
-.logoText{
-   
+.logoText {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+}
+.logoContainer {
+  display: inline-flex;
+  justify-content: space-between;
 }

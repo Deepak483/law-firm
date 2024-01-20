@@ -1,0 +1,56 @@
+.mainContainer {
+  max-width: 1100px;
+  padding-bottom: 5rem;
+  margin-left: 12rem;
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.reasonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  height: 20rem;
+}
+.reason {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 100%;
+  width: 20rem;
+}
+.reason img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+}
+.reason button {
+  background-color: var(--color-primary);
+  color: var(--color-black);
+  width: max-content;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+}
+.reason:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.reason p {
+  margin-bottom: 1rem;
+}
+.reason h4{
+   margin-bottom: 1rem;
+   letter-spacing: 0.02rem;
+}
+

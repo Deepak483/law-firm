@@ -1,0 +1,37 @@
+.faqHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.faqHeading h1 {
+  font-size: 2.5rem;
+}
+.faqHeading p {
+  opacity: 0.6;
+  margin-top: -10px;
+  font-size: 1.2rem;
+}
+.accordion {
+  align-self: flex-end;
+  max-width: 35rem;
+}
+.subContainer {
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 27rem;
+  padding: 1rem;
+  gap: 2rem;
+}
+.faqContainer {
+  padding-bottom: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+.faqTitle {
+  color: var(--color-white);
+}
+.faqAns {
+  opacity: 0.6;
+  color: var(--color-white);
+}

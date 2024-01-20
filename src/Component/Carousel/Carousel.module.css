@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  margin-left: 2rem;
+}
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.card h5 {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.clientImage {
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+  caret-color: transparent;
+}
+.card p {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: #9d969682;
+}
+.testimonContainer {
+  padding-bottom: 5rem;
+  /* max-width: 1100px; */
+  margin: 0 15.5rem;
+}
+.subContainer {
+  margin: 1rem;
+}
+.testimonContainer h1 {
+  /* text-align: left; */
+  font-size: 2.5rem;
+  font-family: "Inter";
+  margin: inherit 1rem;
+}
+button img {
+  width: inherit;
+  caret-color: transparent;
+}
+.button {
+  cursor: pointer;
+  width: 5rem;
+  border-radius: 100%;
+}
+button img {
+  caret-color: transparent;
+  width: 3rem;
+  height: 3rem;
+}
+.testHeading {
+  display: inline-flex;
+  gap: 30rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.swiperButtons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.arrow {
+  width: auto;
+  height: 4rem;
+  caret-color: transparent;
+}
+.testimonContainer .arrow {
+  margin-top: 10rem;
+}

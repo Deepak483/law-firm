@@ -1,0 +1,53 @@
+/* Form.module.css */
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 0.25rem;
+  background-color: var(--color-grey);
+  padding: 0.55rem 1rem;
+  margin-top: 2rem;
+  height: max-content;
+  justify-content: flex-end;
+}
+
+.emailContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.emailInput {
+  flex-grow: 1;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: var(--color-grey);
+  border: none;
+  padding: 1rem 1.5rem;
+  color: var(--color-white);
+  outline: none;
+  background-size: 20px; /* Adjust as needed */
+  background-position: 10px center; /* Adjust as needed */
+  height: inherit;
+  background-repeat: no-repeat;
+}
+
+.emailIcon {
+  position: absolute;
+  /* left: 10px; */
+  align-items: flex-start;
+}
+
+form .formHeaderButton {
+  background-color: var(--color-primary);
+  color: var(--color-black);
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: "Inter";
+  padding: 1.2rem;
+  margin-left: 7rem; /*Adjust for precise alignment*/
+  height: inherit;
+}

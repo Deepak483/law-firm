@@ -3,6 +3,7 @@
   margin: 0.5rem;
 }
 .logoContainer {
+  font-family: 'Inter';
   display: inline-flex;
   justify-content: space-between;
 }

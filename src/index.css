@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #111111;
-  --color: #ffffff;
+  --color-primary: #e3b748;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey: #1d1d1d;
 }
 * {
   margin: 0px;
@@ -11,9 +13,18 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--primary-color);
-  color: var(--color);
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 /* background: #111111; */
-
+main {
+  background-color: var(--color-grey);
+  height: 283rem;
+}
+.swiper-slide {
+  margin: 0px !important;
+}
+.swiper-wrapper {
+  gap: 1rem !important;
+}

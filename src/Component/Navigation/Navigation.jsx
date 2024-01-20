@@ -11,8 +11,8 @@ const Navigation = () => {
           <li>Practice Areas</li>
           <li>About Us</li>
         </ul>
+        <button className={styles.navButton}>Contact Now</button>
       </div>
-      <button className={styles.navButton}>Contact Now</button>
     </>
   );
 };

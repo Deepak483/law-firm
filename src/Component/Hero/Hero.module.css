@@ -1,0 +1,29 @@
+.heroHeading {
+  font-family: "Inter", "sans-serif";
+  font-weight: 400;
+  letter-spacing: 0.03rem;
+  font-size: 3rem;
+}
+.heroContainer {
+  /* margin: 14rem 0 0 9.5rem; */
+  display: inline-flex;
+  justify-content: center;
+  gap: 7rem;
+  align-items: center;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.heroContainer p {
+  color: var(--color-white);
+  opacity: 0.4;
+  line-height: 1.45rem;
+  font-size: 1.2rem;
+  align-items: stretch;
+}
+.heroImage {
+  width: 40%;
+  align-self: flex-start;
+  margin-top: 4rem;
+  caret-color: transparent;
+}
